@@ -1,0 +1,29 @@
+name: ServerTotem
+version: '${version}'
+main: systems.autototem.AutoTotem
+api-version: '1.20'
+prefix: AutoTotem
+authors: [Sophed, Tektonikal]
+description: Automatically uses totems from a player's inventory, freeing up the offhand. A server side version of popular client module, AutoTotem, made fair for everyone.
+website: soph.systems
+commands:
+  autototem:
+    description: Enables or disables AutoTotem for the specified player or yourself.
+    usage: /<command>
+    permission: autototem.toggle
+    aliases: [ at ]
+  infinitetotem:
+    description: Enables or disables InfiniteTotem for the specified player or yourself.
+    usage: /<command>
+    permission: autototem.toggle
+    aliases: [ it ]
+  autototemglobal:
+    description: Enables or disables global AutoTotem.
+    usage: /<command>
+    permission: autototem.global
+    aliases: [ atg ]
+  infinitetotemglobal:
+    description: Enables or disables global InfiniteTotem.
+    usage: /<command>
+    permission: autototem.global
+    aliases: [ itg ]
